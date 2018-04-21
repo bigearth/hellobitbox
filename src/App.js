@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
 
 import './App.css';
 let BITBOXCli = require('bitbox-cli/lib/bitboxcli').default;
