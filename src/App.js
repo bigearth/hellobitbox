@@ -88,7 +88,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src="https://www.bitbox.earth/assets/logo.png" className="App-logo" alt="logo" />
           <h1 className="App-title">Hello BITBOX</h1>
         </header>
         <div className='App-content'>
