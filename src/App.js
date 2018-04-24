@@ -66,7 +66,7 @@ transactionBuilder.sign(0, keyPair, redeemScript, transactionBuilder.hashTypes.S
 // build it and raw hex
 let tx = transactionBuilder.build();
 let hex = tx.toHex();
-BITBOX.RawTransactions.sendRawTransaction(hex).then((result) => { console.log("Broadcast Result: "+result); }, (err) => { console.log("Broadcast Error: "+err); });
+// BITBOX.RawTransactions.sendRawTransaction(hex).then((result) => { console.log("Broadcast Result: "+result); }, (err) => { console.log("Broadcast Error: "+err); });
 
 
 class App extends Component {
